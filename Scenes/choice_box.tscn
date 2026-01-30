@@ -1,0 +1,94 @@
+[gd_scene load_steps=3 format=3 uid="uid://bjlnmc3m1iri1"]
+
+[ext_resource type="Script" uid="uid://c14hrm34uquo2" path="res://Scenes/choice_box.gd" id="1_nftyr"]
+[ext_resource type="Script" uid="uid://dsx8ryq17wt1k" path="res://Scenes/ChoiceBoxIndividual.gd" id="1_o25g4"]
+
+[node name="ChoiceBox" type="Panel"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_nftyr")
+
+[node name="A" type="Panel" parent="."]
+layout_mode = 0
+offset_left = 148.0
+offset_top = 93.0
+offset_right = 378.0
+offset_bottom = 440.0
+script = ExtResource("1_o25g4")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="A"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/normal_font_size = 30
+text = "placeholder"
+
+[node name="Button" type="Button" parent="A"]
+modulate = Color(1, 1, 1, 0)
+z_index = 1
+layout_mode = 0
+offset_right = 230.0
+offset_bottom = 349.0
+
+[node name="B" type="Panel" parent="."]
+offset_left = 466.0
+offset_top = 94.0
+offset_right = 696.0
+offset_bottom = 441.0
+script = ExtResource("1_o25g4")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="B"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/normal_font_size = 30
+text = "placeholder"
+
+[node name="Button" type="Button" parent="B"]
+modulate = Color(1, 1, 1, 0)
+z_index = 1
+layout_mode = 0
+offset_left = -1.0
+offset_top = -1.0
+offset_right = 229.0
+offset_bottom = 348.0
+
+[node name="C" type="Panel" parent="."]
+offset_left = 784.0
+offset_top = 95.0
+offset_right = 1014.0
+offset_bottom = 442.0
+script = ExtResource("1_o25g4")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="C"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -1.0
+offset_bottom = -3.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/normal_font_size = 30
+text = "placeholder"
+
+[node name="Button" type="Button" parent="C"]
+modulate = Color(1, 1, 1, 0)
+z_index = 1
+layout_mode = 0
+offset_top = 1.0
+offset_right = 230.0
+offset_bottom = 350.0
+
+[connection signal="pressed" from="A/Button" to="." method="_on_Abutton_pressed"]
+[connection signal="pressed" from="B/Button" to="." method="_on_Bbutton_pressed"]
+[connection signal="pressed" from="C/Button" to="." method="_on_Cbutton_pressed"]

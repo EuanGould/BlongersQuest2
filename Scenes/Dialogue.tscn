@@ -1,0 +1,38 @@
+[gd_scene load_steps=5 format=3 uid="uid://cff8ff0bmvpj2"]
+
+[ext_resource type="PackedScene" uid="uid://bvp21gvjs4kk0" path="res://Scenes/dialoguebox.tscn" id="1_34wqy"]
+[ext_resource type="Script" uid="uid://nr153tqj5iux" path="res://Scenes/dialoguemanager.gd" id="1_cq6to"]
+[ext_resource type="PackedScene" uid="uid://djl2oopi082r" path="res://Scenes/potrait.tscn" id="3_cq6to"]
+[ext_resource type="PackedScene" uid="uid://bjlnmc3m1iri1" path="res://Scenes/choice_box.tscn" id="4_vqc68"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_cq6to")
+
+[node name="DialogueBox" parent="." instance=ExtResource("1_34wqy")]
+layout_mode = 1
+offset_left = 28.0
+offset_top = 430.0
+offset_right = -32.0
+offset_bottom = -27.0
+
+[node name="Portrait" parent="." instance=ExtResource("3_cq6to")]
+position = Vector2(544, 238)
+scale = Vector2(0.26659, 0.26659)
+animation = &"happy"
+
+[node name="ChoiceBox" parent="." instance=ExtResource("4_vqc68")]
+visible = false
+layout_mode = 0
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+grow_horizontal = 1
+grow_vertical = 1
+
+[connection signal="choice_made" from="ChoiceBox" to="." method="_on_choice_box_choice_made"]

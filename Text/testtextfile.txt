@@ -1,0 +1,40 @@
+[neutral]
+This is placeholder that has demonstrated the file reading has worked
+And has now progress to the second line of dialogue
+[happy]
+and now its happy
+and the game will crash shortly
+{choice 1|choice B|choice Three}
+<A>
+That was choice 1 that you picked!
+How excellent!
+<B>
+That was choice B that you picked!
+How exquisite!
+<C>
+That was choice Three that you picked!
+How cool!
+<END>
+because
+i
+have
+not
+written
+enough
+dialogue
+next choice
+{choice bad|choice good|choice neutral}
+<A>
+[happy]
+That was choice bad.
+I hate you.
+<B>
+[happy]
+good choice good
+Wonderful!!!
+<C>
+[neutral]
+choice neutral this is
+i hate you but i also like you
+<END>
+end of program

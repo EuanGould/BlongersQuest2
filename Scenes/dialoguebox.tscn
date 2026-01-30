@@ -1,0 +1,30 @@
+[gd_scene load_steps=2 format=3 uid="uid://bvp21gvjs4kk0"]
+
+[ext_resource type="Script" uid="uid://bhyx7ou3q5ydi" path="res://Scenes/dialoguebox.gd" id="1_meego"]
+
+[node name="DialogueBox" type="Panel"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 435.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_meego")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 9.0
+offset_top = 8.0
+offset_right = -10.0
+offset_bottom = -7.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/bold_italics_font_size = 30
+theme_override_font_sizes/italics_font_size = 30
+theme_override_font_sizes/mono_font_size = 30
+theme_override_font_sizes/normal_font_size = 30
+theme_override_font_sizes/bold_font_size = 3
+text = "Placeholder text"

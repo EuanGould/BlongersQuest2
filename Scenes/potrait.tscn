@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://djl2oopi082r"]
+
+[ext_resource type="Texture2D" uid="uid://dksph2qk8esnl" path="res://Images/Test/Happy.png" id="1_04c0g"]
+[ext_resource type="Texture2D" uid="uid://b4pm3p7ip14wf" path="res://Images/Test/Neutral.png" id="2_uk0wo"]
+[ext_resource type="Script" uid="uid://cjbwpqxt6pe3n" path="res://Scenes/potrait.gd" id="3_uk0wo"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ec6pr"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_04c0g")
+}],
+"loop": true,
+"name": &"happy",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_uk0wo")
+}],
+"loop": true,
+"name": &"neutral",
+"speed": 5.0
+}]
+
+[node name="Portrait" type="AnimatedSprite2D"]
+sprite_frames = SubResource("SpriteFrames_ec6pr")
+animation = &"neutral"
+script = ExtResource("3_uk0wo")
