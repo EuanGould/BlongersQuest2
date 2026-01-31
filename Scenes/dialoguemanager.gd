@@ -11,6 +11,9 @@ var choices_box
 var waiting
 var in_choice
 
+var pumpkin_playlist
+var playlist_index
+
 func _ready():
 	in_choice = false
 	waiting = false
@@ -18,7 +21,14 @@ func _ready():
 	dialogue_box = $DialogueBox
 	choices_box = $ChoiceBox
 	file = 'res://Text/pumpkin/pumpkin4.txt'
-	dialogue = load_file(file)
+	pumpkin_playlist = ['res://Text/pumpkin/pumpkin1.txt','res://Text/pumpkin/pumpkin2.txt','res://Text/pumpkin/pumpkin3.txt','res://Text/pumpkin/pumpkin4.txt', 
+	"res://Text/bat/bat1.txt", "res://Text/bat/bat2.txt", "res://Text/bat/bat3.txt", "res://Text/bat/bat4.txt"]
+	playlist_index = 0
+	dialogue = load_file(pumpkin_playlist[playlist_index])
+	updateDialogue()
+
+func reset():
+	dialogue = load_file(pumpkin_playlist[playlist_index])
 	updateDialogue()
 
 func load_file(path):
@@ -54,6 +64,9 @@ func _process(delta: float) -> void:
 	if not waiting and not in_choice:
 		updateDialogue()
 		dialogue_index += 1
+		if dialogue_index == dialogue.size():
+			playlist_index += 1
+			reset()
 	
 	if Input.is_action_just_pressed("progressDialogue") and not in_choice:
 		waiting = false
