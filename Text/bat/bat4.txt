@@ -1,0 +1,28 @@
+[batwithshirt]
+Hi, Blonger!
+I quit the basketball team!
+Finally no more daily practice.
+I have more time to spend with my toasters now.
+Thank you so much for you help!
+{You should go back to basketball.|We should go toaster shopping together.|You look like a nerd.}
+<A>
+NEVER!!!!
+I LOVE TOASTERS!!!!!!
+BASKETBALL SUCKS!!!!!!
+<B>
+YEESSSS!!
+PLEASE!
+I'm sure you have great taste.
+We could have such a wonderful time together!
+<C>
+Yayyyy!
+Thank you!
+I will never be a cool guy again.
+I will be the nerdiest nerd to ever collect toasters.
+<END>
+I feel like nothing I do will truly show my gratitude.
+I know!
+I will gift you my prized possession...
+My favourite toaster.
+I will miss it, but for you, it's worth it.
+End of Program

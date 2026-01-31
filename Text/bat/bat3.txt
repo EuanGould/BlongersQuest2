@@ -1,0 +1,35 @@
+[batwithsunglasses]
+*sniff*
+How...
+We lost...
+B-but-
+Aren't I the best?
+I need to be cool...
+How can I be cool without basketball...
+What do I do?
+*cries*
+{You're always cool.|You were never cool.|Keep playing basketball.}
+<A>
+I-I am?
+Me?
+I don't have to play basketball?
+<B>
+H-Huh?
+But I played basketball...
+What else is there...
+I can't do anything else...
+<C>
+There's no point...
+I already tried...
+What can I even do?
+<END>
+I... think I understand...
+[batsunglassesfall]
+I don't need to be cool.
+I should just be myself.
+[batglassesgain]
+I WILL PURSUE MY TRUE HOBBY!
+I WILL LIVE MY LIFE TO ITS FULLEST!
+FAREWELL MY GOOD FRIEND!
+COOL BAT IS NO MORE!
+End of program
