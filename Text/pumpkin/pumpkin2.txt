@@ -1,3 +1,37 @@
 [pumpkinneutral]
 Hi again!
 How are you doing? 
+Anyone picking on you?
+[pumpkinangry]
+If someone were... Oh I'd give them the what for... A piece of my mind...
+[pumpkinneutral]
+It's probably hard to imagine but I was picked on once...
+{Really?|But you're so tough, how?|That makes sense.}
+<A>
+[pumpkinneutral]
+Yeah! If you can believe it.
+<B>
+[pumpkinblush]
+Oh well um...
+[pumpkinhappy]
+Even tough guys have problems if you can believe it.
+<C>
+[pumpkinangry]
+What's that supposed to mean!?
+[pumpkinunhappy]
+Do you really mean that?
+<END>
+[pumpkinunhappy]
+Always calling me names and...
+[pumpkinunhappy]
+...
+[pumpkinblush]
+Throwing me around and stuff...
+[pumpkinstillhappy]
+Like a ball...
+[pumpkinneutral]
+That part wasn't so bad...
+[pumpkinstillneutral]
+...
+[pumpkinneutral]
+So real jerks.
