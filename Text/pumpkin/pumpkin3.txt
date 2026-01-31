@@ -1,0 +1,10 @@
+[pumpkinneutral]
+Aw man! I'm kinda nervous!
+[pumpkinhappy]
+But this is it! The big game!
+[pumpkinneutral]
+Well... One of them at least.
+[pumpkinunhappy]
+If we actually get into the league it'll only get harder...
+[pumpkinshrinkingunhappy]
+And I'd have to keep playing basketball...
