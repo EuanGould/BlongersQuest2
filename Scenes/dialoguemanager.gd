@@ -17,7 +17,7 @@ func _ready():
 	portrait = $NewPortrait
 	dialogue_box = $DialogueBox
 	choices_box = $ChoiceBox
-	file = 'res://Text/pumpkin/pumpkin2.txt'
+	file = 'res://Text/pumpkin/pumpkin4.txt'
 	dialogue = load_file(file)
 	updateDialogue()
 

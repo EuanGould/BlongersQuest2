@@ -1,4 +1,4 @@
-[gd_scene load_steps=27 format=3 uid="uid://bndtjnqtwrm2g"]
+[gd_scene load_steps=29 format=3 uid="uid://bndtjnqtwrm2g"]
 
 [ext_resource type="Texture2D" uid="uid://dl8s7gei842ni" path="res://Images/pumpkin/pumpkinneutral.png" id="1_skkwd"]
 [ext_resource type="Script" uid="uid://cbpy8sbplpo1d" path="res://Scenes/new_portrait.gd" id="2_58hvf"]
@@ -713,6 +713,87 @@ tracks/4/keys = {
 "values": [ExtResource("9_5ciup")]
 }
 
+[sub_resource type="Animation" id="Animation_ja4v1"]
+resource_name = "pumpkinslowinghappy"
+length = 5.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.13333, 3.16667),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [ExtResource("3_7w1yf"), ExtResource("1_skkwd"), ExtResource("4_fnvqe")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.0827191, 0.1, 0.118616, 0.233333, 0.433333, 0.548051, 0.666667, 0.9, 1.26667, 1.48138, 1.7, 2.06667, 2.86667, 3.24805, 3.56667, 4.46667, 4.91748),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(541, 207), Vector2(541, 300), Vector2(541, 350), Vector2(541, 300), Vector2(541, 207), Vector2(541, 300), Vector2(541, 350), Vector2(541, 300), Vector2(541, 207), Vector2(541, 300), Vector2(541, 350), Vector2(541, 300), Vector2(541, 207), Vector2(541, 300), Vector2(541, 350), Vector2(541, 300), Vector2(541, 207), Vector2(541, 350)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".:scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_0him6"]
+resource_name = "pumpkinfasthappy"
+length = 0.075
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("3_7w1yf")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.0333333, 0.075),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(541, 130), Vector2(541, 400), Vector2(541, 130)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".:scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_fnvqe"]
 _data = {
 &"RESET": SubResource("Animation_7w1yf"),
@@ -722,10 +803,12 @@ _data = {
 &"batwithsunglasses": SubResource("Animation_ar8uu"),
 &"pumpkinangry": SubResource("Animation_wy1uf"),
 &"pumpkinblush": SubResource("Animation_ys7f1"),
+&"pumpkinfasthappy": SubResource("Animation_0him6"),
 &"pumpkinhappy": SubResource("Animation_fnvqe"),
 &"pumpkinneutral": SubResource("Animation_58hvf"),
 &"pumpkinshrinkingunhappy": SubResource("Animation_7773s"),
 &"pumpkinslowerhappy": SubResource("Animation_cclpg"),
+&"pumpkinslowinghappy": SubResource("Animation_ja4v1"),
 &"pumpkinstill": SubResource("Animation_r4k2k"),
 &"pumpkinstillhappy": SubResource("Animation_66wsj"),
 &"pumpkinunhappy": SubResource("Animation_xae3w"),

@@ -8,3 +8,41 @@ Well... One of them at least.
 If we actually get into the league it'll only get harder...
 [pumpkinshrinkingunhappy]
 And I'd have to keep playing basketball...
+[pumpkinhappy]
+So wish me luck!!
+{Do you actually like playing basketball?|Something wrong?|Good luck!}
+<A>
+[pumpkinslowinghappy]
+... I mean... I kinda
+I sort of... Well.
+No. Honestly not really. I kinda...
+<B>
+[pumpkinslowinghappy]
+... I mean... I kinda
+I sort of... Well.
+Yeah... I kinda...
+<C>
+[pumpkinslowinghappy]
+Thanks! But... Man... That's kind of you but...
+I honestly...
+<END>
+[pumpkingunhappy]
+Don't like basketball.
+Being completely honest. I kinda only like watching the ball.
+[pumpkinshrinkingunhappy]
+And really I...
+[pumpkinhappy]
+Don't tell anyone but I...
+[pumpkinblush]
+...
+[pumpkinfasthappy]
+I WANNA BE THE BALL!!
+[pumpkinblush]
+I wanna be passed around and dribbled and dunked into the hoop!
+[pumpkinunhappy]
+I don't really care about playing it.
+[pumpkinhappy]
+But I'll try my best so that I can least be around the ball in the Biglittle League!!
+[pumpkinunhappy]
+Seeya tomorrow...
+End of program

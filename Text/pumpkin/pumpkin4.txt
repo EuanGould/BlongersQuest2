@@ -1,0 +1,33 @@
+[pumpkinneutral]
+Hey Blonger!
+Didn't you hear? Yeah we lost.
+[pumpkinhappy]
+Really got our butts handed to us my the Sinfulcinatti Sawed Offs.
+[pumpkinunhappy]
+And honestly my heart wasn't really in it. So the Handheld Turrets are out of the league for now.
+{Are you okay?|You'll be in the league by next year!|That's rough.}
+<A>
+[pumpkinhappy]
+Yeah actually! I am!
+<B>
+[pumpkinhappy]
+Actually, I'll be in it this year!
+<C>
+[pumpkinneutral]
+It's ok, I was never that into actually playing basketball.
+[pumpkinhappy]
+But I still made the league!!!
+<END>
+[pumpkinblush]
+It's a funny story really.
+[pumpkinhappy]
+The other team had a guy made of spikes and he popped the ball mid-game.
+And they didn't have any spares so I seized the oppotunity and...
+[pumpkinfasthappy]
+I WAS THE BALL!!!!!!!
+[pumpkinblush]
+And even better, I'm gonna be in the Biglittle League after all!
+[pumpkinhappy]
+As the ball!
+[pumpkinblush]
+Thank you Blonger...
