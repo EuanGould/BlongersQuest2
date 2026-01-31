@@ -1,8 +1,13 @@
-[gd_scene load_steps=5 format=3 uid="uid://djl2oopi082r"]
+[gd_scene load_steps=10 format=3 uid="uid://djl2oopi082r"]
 
 [ext_resource type="Texture2D" uid="uid://dksph2qk8esnl" path="res://Images/Test/Happy.png" id="1_04c0g"]
 [ext_resource type="Texture2D" uid="uid://b4pm3p7ip14wf" path="res://Images/Test/Neutral.png" id="2_uk0wo"]
+[ext_resource type="Texture2D" uid="uid://b7o02pfdnmtsv" path="res://Images/pumpkin/pumpkinangry.png" id="3_ec6pr"]
 [ext_resource type="Script" uid="uid://cjbwpqxt6pe3n" path="res://Scenes/potrait.gd" id="3_uk0wo"]
+[ext_resource type="Texture2D" uid="uid://crlqo0dh2jfja" path="res://Images/pumpkin/pumpkinblush.png" id="4_d2n8x"]
+[ext_resource type="Texture2D" uid="uid://6ib4v81cgcw5" path="res://Images/pumpkin/pumpkinhappy.png" id="5_evl8o"]
+[ext_resource type="Texture2D" uid="uid://do14nrs70tw8w" path="res://Images/pumpkin/pumpkinunhappy.png" id="6_81moa"]
+[ext_resource type="Texture2D" uid="uid://dl8s7gei842ni" path="res://Images/pumpkin/pumpkinneutral.png" id="6_evl8o"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_ec6pr"]
 animations = [{
@@ -21,9 +26,49 @@ animations = [{
 "loop": true,
 "name": &"neutral",
 "speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_ec6pr")
+}],
+"loop": true,
+"name": &"pumpkinangry",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_d2n8x")
+}],
+"loop": true,
+"name": &"pumpkinblush",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_evl8o")
+}],
+"loop": true,
+"name": &"pumpkinhappy",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_evl8o")
+}],
+"loop": true,
+"name": &"pumpkinneutral",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_81moa")
+}],
+"loop": true,
+"name": &"pumpkinunhappy",
+"speed": 5.0
 }]
 
 [node name="Portrait" type="AnimatedSprite2D"]
 sprite_frames = SubResource("SpriteFrames_ec6pr")
-animation = &"neutral"
+animation = &"pumpkinangry"
 script = ExtResource("3_uk0wo")

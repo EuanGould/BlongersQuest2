@@ -13,8 +13,8 @@ var in_choice
 
 func _ready():
 	in_choice = false
-	waiting = true
-	portrait = $Portrait
+	waiting = false
+	portrait = $NewPortrait
 	dialogue_box = $DialogueBox
 	choices_box = $ChoiceBox
 	file = 'res://Text/testtextfile.txt'
@@ -48,15 +48,15 @@ func updateDialogue():
 		skip_to("<END>")
 	else:
 		dialogue_box.setText(dialogue[dialogue_index])
-		waiting = false
+		waiting = true
 
 func _process(delta: float) -> void:
-	if waiting and not in_choice:
+	if not waiting and not in_choice:
 		updateDialogue()
 		dialogue_index += 1
 	
 	if Input.is_action_just_pressed("progressDialogue") and not in_choice:
-		waiting = true
+		waiting = false
 
 
 func _on_choice_box_choice_made(choice_id: Variant) -> void:

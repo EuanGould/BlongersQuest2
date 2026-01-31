@@ -1,7 +1,7 @@
-[neutral]
+[pumpkinneutral]
 This is placeholder that has demonstrated the file reading has worked
 And has now progress to the second line of dialogue
-[happy]
+[pumpkinhappy]
 and now its happy
 and the game will crash shortly
 {choice 1|choice B|choice Three}
@@ -25,15 +25,16 @@ dialogue
 next choice
 {choice bad|choice good|choice neutral}
 <A>
-[happy]
+[pumpkinunhappy]
 That was choice bad.
+[pumpkinangry]
 I hate you.
 <B>
-[happy]
+[pumpkinhappy]
 good choice good
 Wonderful!!!
 <C>
-[neutral]
+[pumpkinneutral]
 choice neutral this is
 i hate you but i also like you
 <END>
