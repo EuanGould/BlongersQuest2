@@ -23,15 +23,74 @@ Do you really mean that?
 <END>
 [pumpkinunhappy]
 Always calling me names and...
-[pumpkinunhappy]
-...
 [pumpkinblush]
 Throwing me around and stuff...
-[pumpkinstillhappy]
+[pumpkinhappy]
 Like a ball...
 [pumpkinneutral]
 That part wasn't so bad...
-[pumpkinstillneutral]
+[pumpkinstill]
+...
+[pumpkinunhappy]
+So real jerks.
+{Do you like being a basketball?|Sounds rough.|Thrown around?}
+<A>
+[pumpkinangry]
+NO!!
+[pumpkinblush]
+...
+[pumpkinangry]
+NO!!
+[pumpkinunhappy]
+... That would be weird.
+[pumpkinshrinkingunhappy]
+... People would think I'm weird.
+[pumpkinveryshrinkingunhappy]
+Please don't think I'm weird.
+I don't like being a ball...
+I don't...
+[pumpkinneutral]
+because that would be weird.
+[pumpkinhappy]
+And anyway, the Incomprehensible Orb Being vaporised them so they're not around anymore.
+<B>
+[pumpkinneutral]
+It wasn't too awful.
+[pumpkinblush]
+Sometimes they'd pass me around and toss me into round containers.
+[pumpkinunhappy]
+Occasionally the toilet...
+[pumpkinshrinkingunhappy]
+and one time a woodchipper...
+[pumpkinhappy]
+But usually just like a bucket or basket or something.
+[pumpkinblush]
+And I guess I didn't mind that all too much.
+[pumpkinhappy]
+And anyway, the Incomprehensible Orb Being vaporised them so they're not around anymore.
+<C>
+[pumpkinhappy]
+Yeah!
+[pumpkinneutral]
+I mean yeah, always passing me back and forth between them.
+And sometimes into containers.
+[pumpkinblush]
 ...
 [pumpkinneutral]
-So real jerks.
+One time they tried to throw me into a woodchipper though and was rude.
+[pumpkinhappy]
+They didn't even get expelled for that, turns out they were doing Chaos Powder in the bathrooms.
+Then the Incomprehensible Orb Being vaporised them so they're not around anymore.
+<END>
+[pumpkinunhappy]
+Maybe I'm oversharing a bit...
+...
+[pumpkinhappy]
+OH YEAH!! GUESS WHAT!!
+[pumpkinneutral]
+The qualifier for the Biglittle Monster League is tomorrow, and the tickets are free!
+[pumpkinunhappy]
+Mainly because no one really cares until you're in the league but...
+[pumpkinhappy]
+If you wanna come along it'll be pretty easy to get a seat!!
+End of program
