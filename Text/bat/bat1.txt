@@ -1,0 +1,34 @@
+[batwithsunglasses]
+Yo waddup!
+You new here?
+That exchange student?
+I'm kinda a big deal around here.
+The very best there is at basketball.
+No one is better than me.
+At anything.
+But especially basketball.
+Have you played before?
+{Yes.|No.|What's basketball.}
+<A>
+Coolio.
+I knew you were chill like that.
+Could tell by your shape.
+<B>
+[batsunglassesfall]
+HUHHHH!!!!??
+NO BASKETBALL???
+HOW DO YOU EVEN LIVE????
+[batsunglassesgain]
+<C>
+Real funny.
+Everyone knows basketball.
+It's the coolest thing there is.
+And I'm the coolest for being so darn good at it.
+<END>
+Anyways.
+You shouldn't tryout basketball.
+It's not worth it.
+You'd be overshadowed.
+By me.
+God, I'm so cool.
+End of program

@@ -1,0 +1,42 @@
+[batwithnothing]
+Uh, hello there.
+I was just-
+Uh...
+Going to basketball practice.
+Yeah.
+Basketball.
+Important basketball stuff soon.
+That's what I'm doing right now.
+Definitely.
+...
+[battoasterdrop]
+Oops.
+{Nice toasters.|What are those?|You should focus on basketball.}
+<A>
+Thank you.
+Um- wait- no-
+I- uh-
+I was just...
+Going to basketball...
+<B>
+What are what?
+Oh, these?
+Haha. Uh.
+No idea how those got there.
+<C>
+I-I am!
+This was...
+For the kitchen!
+They ordered new toasters.
+I'm so cool I volunteered to deliver them.
+It's a lot...
+They're so weird for getting this many haha...
+<END>
+Of course I'm taking basketball seriously!
+I'm even reading the Big Shot 3 Step Guide.
+The qualifiers are soon.
+I can't let the Handheld turrets down.
+I need to carry my team to victory.
+My mind is filled with nothing but basketball.
+Nothing else...
+End of program
