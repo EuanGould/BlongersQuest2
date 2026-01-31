@@ -1,0 +1,56 @@
+[pumpkinneutral]
+Yo!
+I've never seen anyone like you around before!
+[pumpkinhappy]
+Including you!
+[pumpkinneutral]
+Wait!
+[pumpkinhappy]
+Are you here to join the team!?
+{Yes!|No.|What team?}
+<A>
+[pumpkinhappy]
+WOW!!
+THAT'S SO-
+[pumpkinstill]
+Augh. Sorry... Ahem...
+[pumpkinhappy]
+THAT'S SO COOL!
+You're pretty short too! It's cool that you're not letting that get you down!
+[pumpkinneutral]
+Though I gotta warn you, we're a pretty good team already so you better be made of stern stuff if you want to join.
+[pumpkinhappy]
+We might even make the Biglittle Monster League this year!
+<B>
+[pumpkinunhappy]
+Oh... But...
+Aw man...
+[pumpkinshrinkingunhappy]
+You're so tall as well... I think you'd be really good at it...
+And we're trying to make the Biglittle Monster League this year...
+[pumpkinveryshrinkingunhappy]
+You could've really helped...
+<C>
+[pumpkinhappy]
+Our basketball team obviously! The Handheld Turrets!
+We're gunning for the Biglittle Monster League this year and I think we have a good shot!
+And I love all things basketball! I love the ball, the baskets...
+[pumpkinslowerhappy]
+The way the ball gets bounced around...
+[pumpkinstillhappy]
+And thrown around between the players...
+[pumpkinunhappy]
+And the way it gets dunked into the net...
+<END>
+[pumpkinneutral]
+Wait! You're that new exchange student we were told about!
+[pumpkinhappy]
+It's so great to meet you!
+[pumpkinunhappy]
+All the other exchange students keep getting vapourised by the Incomprehensible Orb Being
+[pumpkinshrinkingunhappy]
+They kept killing them before I even got to say hi...
+[pumpkinhappy]
+So HI!!!
+[pumpkinneutral]
+You should avoid dying!!
