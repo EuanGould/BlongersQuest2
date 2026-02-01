@@ -1,4 +1,5 @@
-[backgroundcourt]
+[pumpkinneutral]
+[STARTCOURT]
 [pumpkinneutral]
 Yo!
 I've never seen anyone like you around before!
@@ -55,4 +56,4 @@ They kept killing them before I even got to say hi...
 So HI!!!
 [pumpkinneutral]
 You should avoid dying!!
-End of program
+...

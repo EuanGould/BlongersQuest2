@@ -20,6 +20,7 @@ func setAll(choices_raw):
 
 func choiceMade(choice_id):
 	choice_made.emit(choice_id)
+	$SelectSound.play()
 
 func _on_Cbutton_pressed() -> void:
 	choiceMade("C")

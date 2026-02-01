@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://bjlnmc3m1iri1"]
+[gd_scene load_steps=4 format=3 uid="uid://bjlnmc3m1iri1"]
 
 [ext_resource type="Script" uid="uid://c14hrm34uquo2" path="res://Scenes/choice_box.gd" id="1_nftyr"]
 [ext_resource type="Script" uid="uid://dsx8ryq17wt1k" path="res://Scenes/ChoiceBoxIndividual.gd" id="1_o25g4"]
+[ext_resource type="AudioStream" uid="uid://dlpt4208x8imk" path="res://Audio/select.wav" id="3_rsh7q"]
 
 [node name="ChoiceBox" type="Panel"]
 anchors_preset = 15
@@ -37,6 +38,7 @@ offset_right = 230.0
 offset_bottom = 349.0
 
 [node name="B" type="Panel" parent="."]
+layout_mode = 0
 offset_left = 466.0
 offset_top = 94.0
 offset_right = 696.0
@@ -63,6 +65,7 @@ offset_right = 229.0
 offset_bottom = 348.0
 
 [node name="C" type="Panel" parent="."]
+layout_mode = 0
 offset_left = 784.0
 offset_top = 95.0
 offset_right = 1014.0
@@ -88,6 +91,9 @@ layout_mode = 0
 offset_top = 1.0
 offset_right = 230.0
 offset_bottom = 350.0
+
+[node name="SelectSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_rsh7q")
 
 [connection signal="pressed" from="A/Button" to="." method="_on_Abutton_pressed"]
 [connection signal="pressed" from="B/Button" to="." method="_on_Bbutton_pressed"]

@@ -1,0 +1,63 @@
+[gd_scene load_steps=8 format=3 uid="uid://vb358c1yptcr"]
+
+[ext_resource type="Script" uid="uid://dvhxb0r5n1ut4" path="res://Scenes/character_select.gd" id="1_2b87j"]
+[ext_resource type="Texture2D" uid="uid://cl0n4adqbo5nq" path="res://Images/backgrounds/Court.png" id="1_uelh3"]
+[ext_resource type="Texture2D" uid="uid://bnffccqd72hna" path="res://Images/bat/batneutral.png" id="2_wqg5r"]
+[ext_resource type="Texture2D" uid="uid://c81xwyh4yesx2" path="res://Images/bat/batsunglasses.png" id="3_2b87j"]
+[ext_resource type="Texture2D" uid="uid://dl8s7gei842ni" path="res://Images/pumpkin/pumpkinneutral.png" id="3_4yuuj"]
+[ext_resource type="AudioStream" uid="uid://1il6h6ynt6ij" path="res://Audio/Masketballtrimmed.mp3" id="6_72d1u"]
+[ext_resource type="Script" uid="uid://dentk7w00wt8a" path="res://Scenes/music.gd" id="7_d1kp4"]
+
+[node name="CharacterSelect" type="Node2D"]
+script = ExtResource("1_2b87j")
+
+[node name="Court" type="Sprite2D" parent="."]
+position = Vector2(579, 221)
+scale = Vector2(0.293945, 0.293945)
+texture = ExtResource("1_uelh3")
+
+[node name="Batneutral" type="Sprite2D" parent="."]
+position = Vector2(185, 503)
+scale = Vector2(0.395508, 0.395508)
+texture = ExtResource("2_wqg5r")
+
+[node name="Batsunglasses" type="Sprite2D" parent="Batneutral"]
+texture = ExtResource("3_2b87j")
+
+[node name="BatButton" type="Button" parent="Batneutral"]
+modulate = Color(1, 1, 1, 0)
+z_index = 1
+offset_left = -258.0
+offset_top = -260.0
+offset_right = 281.0
+offset_bottom = 253.0
+
+[node name="Pumpkinneutral" type="Sprite2D" parent="."]
+position = Vector2(270, 290)
+scale = Vector2(0.175049, 0.175049)
+texture = ExtResource("3_4yuuj")
+
+[node name="PumpkinButton" type="Button" parent="Pumpkinneutral"]
+modulate = Color(1, 1, 1, 0)
+z_index = 1
+offset_left = -326.0
+offset_top = -343.0
+offset_right = 394.0
+offset_bottom = 343.0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+offset_right = 1149.0
+offset_bottom = 151.0
+theme_override_colors/font_outline_color = Color(0.258824, 0, 0, 1)
+theme_override_constants/outline_size = 20
+theme_override_font_sizes/normal_font_size = 50
+bbcode_enabled = true
+text = "[center]BLONGER'S QUEST II:
+Masketball"
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("6_72d1u")
+script = ExtResource("7_d1kp4")
+
+[connection signal="pressed" from="Batneutral/BatButton" to="." method="_on_bat_button_pressed"]
+[connection signal="pressed" from="Pumpkinneutral/PumpkinButton" to="." method="_on_pumpkin_button_pressed"]
