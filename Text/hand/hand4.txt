@@ -1,0 +1,27 @@
+Oh, it's you.
+What do you want?
+An autograph?
+I'm sure you heard about the qualifiers.
+I won so hard I'm a world champion now.
+I don't have time for you.
+Make it quick.
+{Can I have an autograph?|Wanna hang out?|Let's play Rock Paper Scissors.}
+<A>
+I guess I can give you one in my infinite graciousness.
+And as thanks for being a stepstone to get me out of Rock Paper Scissors.
+My autograph is worth a lot of money, so be thankful.
+I'm not sure you even deserve this.
+<B>
+No.
+Stop wasting my time.
+I should be playing basketball.
+<C>
+GUARDS!!
+Take this fool away!
+They mentioned that sport!
+When I become president due to my basketball skills, I will outlaw that stupid sport.
+<END>
+You really love wasting my time, huh?
+Go away, now.
+I hope I never see you again.
+End of Chapter

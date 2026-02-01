@@ -15,3 +15,10 @@ I need to train for Rock Paper Scissors.
 <C>
 It's fine once you get used to it.
 I'm quite popular among fans, so there's always people cheering for me.
+<END>
+I'd like to try some other sports, but everyone always says I'm so good at Rock Paper Scissors.
+...
+I have to go now.
+There's a big match coming up and I need to train.
+See you later!
+End of Chapter

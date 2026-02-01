@@ -1,0 +1,37 @@
+Oh, hi Blonger.
+I'm exhausted right now.
+Training has been so tough...
+My big match is soon.
+Do you wanna have a training match with me?
+{Rock.|Paper.|Scissors.}
+<A>
+Looks like I win.
+<B>
+Beat you.
+<C>
+You lose.
+<END>
+Looks like I'm ready, then.
+Haaaahh....
+I wish I was doing something else...
+Like basketball...
+{Why do you play Rock Paper Scissors?|You should quit.|Basketball sucks.}
+<A>
+I have to...
+I'm so good, it'd be a waste not to.
+Everyone says so...
+<B>
+I can't.
+It's all I've ever known.
+I wouldn't know what else to do.
+<C>
+No!
+Basketball is amazing!
+It's so interesting.
+Much better than Rock Paper Scissors...
+<END>
+I don't know what to do...
+I guess I'l just keep training then.
+I hope you'll come watch my match, Blonger.
+See you there.
+End of Chapter
