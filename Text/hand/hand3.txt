@@ -1,42 +1,56 @@
+[handneutral]
 Blonger?
 What are you doing here?
 Are you my opponent?
 I didn't realize you also played competitive Rock Paper Scissors.
 The basketball qualifiers are starting in a moment.
+[handunhappy]
 I won't even be able to watch them.
 I have to play this stupid match...
+[handneutral]
 Unless...
 ...
 Our matching is starting, Blonger.
 Let's go.
 {Rock.|Paper.|Scissors.}
 <A>
+[handscissors]
 Hehehe.
 I LOST!
 <B>
+[handrock]
 Hah!
 My first loss!
 <C>
+[handpaper]
 ...
 You win.
 <END>
+[handhappyvery]
 NOT SO GOOD AT ROCK PAPER SCISSORS NOW, AM I?
 I'M OFF TO THE BASKETBALL QUALIFIERS!
 I will make it through and be the best basketball champion the world has ever seen.
 {Did you throw the match?|Ball hard, my friend.|You shouldn't abandon your talent.}
 <A>
+[handangry]
 Are you implying I would do something so dishonest??
 My loss was completely fair.
 I was outplayed.
+[handneutral]
 Totally.
 <B>
 I will be balling.
 No one will ever ball like me again.
 <C>
+[handangry]
 WHAT TALENT??
 I LOST!!
+[handneutral]
 Without talent, I can only follow my passion.
+[handhappy]
 Basketball.
 <END>
+[handneutral]
 I must leave now.
 Basketball waits for no one.
+End of Chapter

@@ -1,17 +1,25 @@
+[handneutral]
 Oh, hi Blonger.
 I'm exhausted right now.
+[handunhappy]
 Training has been so tough...
 My big match is soon.
+[handneutral]
 Do you wanna have a training match with me?
 {Rock.|Paper.|Scissors.}
 <A>
+[handpaper]
 Looks like I win.
 <B>
+[handscissors]
 Beat you.
 <C>
+[handrock]
 You lose.
 <END>
+[handneutral]
 Looks like I'm ready, then.
+[handunhappy]
 Haaaahh....
 I wish I was doing something else...
 Like basketball...
@@ -25,13 +33,17 @@ I can't.
 It's all I've ever known.
 I wouldn't know what else to do.
 <C>
+[handangry]
 No!
 Basketball is amazing!
+[handhappy]
 It's so interesting.
+[handunhappy]
 Much better than Rock Paper Scissors...
 <END>
 I don't know what to do...
-I guess I'l just keep training then.
+I guess I'll just keep training then.
+[handneutral]
 I hope you'll come watch my match, Blonger.
 See you there.
 End of Chapter
