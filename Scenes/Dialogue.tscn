@@ -5,11 +5,11 @@
 [ext_resource type="PackedScene" uid="uid://bjlnmc3m1iri1" path="res://Scenes/choice_box.tscn" id="4_vqc68"]
 [ext_resource type="PackedScene" uid="uid://bndtjnqtwrm2g" path="res://Scenes/new_portrait.tscn" id="4_yfiq0"]
 [ext_resource type="AudioStream" uid="uid://1il6h6ynt6ij" path="res://Audio/Masketballtrimmed.mp3" id="5_gexym"]
-[ext_resource type="Script" uid="uid://dentk7w00wt8a" path="res://Scenes/music.gd" id="6_2etbf"]
+[ext_resource type="Script" path="res://Scenes/music.gd" id="6_2etbf"]
 [ext_resource type="AudioStream" uid="uid://bxklunyl7bdyy" path="res://Audio/pageturn.wav" id="7_2etbf"]
 [ext_resource type="Texture2D" uid="uid://cl0n4adqbo5nq" path="res://Images/backgrounds/Court.png" id="8_6v1lj"]
 [ext_resource type="Texture2D" uid="uid://bl5jei6hu8lwf" path="res://Images/backgrounds/Corridor.png" id="9_0hby2"]
-[ext_resource type="Script" uid="uid://yuxf3k0bddwp" path="res://Scenes/master_animation_player.gd" id="10_gwd6a"]
+[ext_resource type="Script" path="res://Scenes/master_animation_player.gd" id="10_gwd6a"]
 
 [sub_resource type="Animation" id="Animation_gwd6a"]
 length = 0.001
