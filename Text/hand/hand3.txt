@@ -1,4 +1,6 @@
 [handneutral]
+[CORRIDOR]
+[handneutral]
 Blonger?
 What are you doing here?
 Are you my opponent?
@@ -54,4 +56,4 @@ Basketball.
 I must leave now.
 [handneutralleave]
 Basketball waits for no one.
-End of Chapter
+...

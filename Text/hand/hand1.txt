@@ -1,4 +1,6 @@
 [handwave]
+[STARTCOURT]
+[handwave]
 Good morning. Are you the new transfer student?
 [handhappy]
 Nice to meet you.
@@ -30,4 +32,4 @@ I have to go now.
 There's a big match coming up and I need to train.
 [handwave]
 See you later!
-End of Chapter
+...

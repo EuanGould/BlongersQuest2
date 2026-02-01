@@ -1,4 +1,6 @@
 [handneutral]
+[CORRIDOR]
+[handneutral]
 Oh, it's you.
 What do you want?
 An autograph?
@@ -34,4 +36,4 @@ You really love wasting my time, huh?
 Go away, now.
 [handneutralleave]
 I hope I never see you again.
-End of Chapter
+...

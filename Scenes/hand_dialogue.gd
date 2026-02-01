@@ -28,7 +28,7 @@ func _ready():
 	dialogue_box = $DialogueBox
 	choices_box = $ChoiceBox
 	file = 'res://Text/pumpkin/pumpkin4.txt'
-	pumpkin_playlist = ['res://Text/bat/bat1.txt','res://Text/bat/bat2.txt','res://Text/bat/bat3.txt','res://Text/bat/bat4.txt']
+	pumpkin_playlist = ['res://Text/hand/hand1.txt','res://Text/hand/hand2.txt','res://Text/hand/hand3.txt','res://Text/hand/hand4.txt']
 	playlist_index = 0
 	dialogue = load_file(pumpkin_playlist[playlist_index])
 	updateDialogue()

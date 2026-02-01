@@ -80,7 +80,10 @@ func _process(delta: float) -> void:
 		dialogue_index += 1
 		if dialogue_index == dialogue.size():
 			playlist_index += 1
-			reset()
+			if playlist_index >= pumpkin_playlist.size():
+				get_tree().change_scene_to_file("res://Scenes/credits.tscn")
+			else:
+				reset()
 	
 	if Input.is_action_just_pressed("progressDialogue") and not in_choice:
 		waiting = false

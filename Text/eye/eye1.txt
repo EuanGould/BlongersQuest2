@@ -1,0 +1,28 @@
+[eyeneutral]
+[STARTCOURT]
+[eyeneutral]
+Oh hey! You're that new exchange student right?
+I'm uh... Oh I guess you didn't ask, sorry...
+I mean um I'm... Eyeball...
+{That's a nice name!|That tracks.|Ooh! What does is it mean?}
+<A>
+Oh you think so?
+I dunno... I find it kinda... Reductive.
+I've been thinking about getting it changed soon.
+<B>
+Really? You think so? Aww man.
+I mean I know I'm an eye and all but it's just...
+So... like aggressive almost... not quite...
+I don't know how to describe it exactly.
+But I suppose it's just too...
+Masculine. For my tastes.
+<C>
+...
+?
+Um uh it's like the bit of your head that lets you see.
+It makes up a vast majority of my body and is one of my only visible features.
+<END>
+I mean I like that it physically describes me in such a clever and creative way but...
+...
+Anyway!
+I'm 

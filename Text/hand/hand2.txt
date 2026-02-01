@@ -1,4 +1,6 @@
 [handneutral]
+[CORRIDOR]
+[handneutral]
 Oh, hi Blonger.
 I'm exhausted right now.
 [handunhappy]
@@ -46,4 +48,4 @@ I guess I'll just keep training then.
 [handneutral]
 I hope you'll come watch my match, Blonger.
 See you there.
-End of Chapter
+...
