@@ -91,47 +91,49 @@ texture = ExtResource("1_1wbrc")
 [node name="Batsunglasses" type="Sprite2D" parent="Credits/Batneutral"]
 texture = ExtResource("2_j6nef")
 
-[node name="Pumpkinhappy" type="Sprite2D" parent="."]
+[node name="Pumpkinhappy" type="Sprite2D" parent="Credits"]
 position = Vector2(768, 780)
 scale = Vector2(0.324219, 0.324219)
 texture = ExtResource("3_fdv4u")
 
-[node name="Finalboss" type="Sprite2D" parent="."]
+[node name="Finalboss" type="Sprite2D" parent="Credits"]
 position = Vector2(912, 715)
 scale = Vector2(0.341797, 0.341797)
 texture = ExtResource("4_ae0tj")
 
-[node name="Handhappy" type="Sprite2D" parent="."]
+[node name="Handhappy" type="Sprite2D" parent="Credits"]
 position = Vector2(332, 733)
 scale = Vector2(0.387695, 0.387695)
 texture = ExtResource("5_rlyo5")
 
-[node name="Eyeneutral" type="Sprite2D" parent="."]
+[node name="Eyeneutral" type="Sprite2D" parent="Credits"]
 position = Vector2(916.5, 895.5)
 scale = Vector2(0.408203, 0.408203)
 texture = ExtResource("6_0oi4c")
 
-[node name="Blonger2" type="Sprite2D" parent="."]
+[node name="Blonger2" type="Sprite2D" parent="Credits"]
 position = Vector2(928, 1325)
-scale = Vector2(-0.345, 0.345)
+rotation = 3.14159
+scale = Vector2(0.345, -0.345)
 texture = ExtResource("7_iy2g5")
 
-[node name="Blonger" type="Sprite2D" parent="."]
+[node name="Blonger" type="Sprite2D" parent="Credits"]
 position = Vector2(120, 794)
 scale = Vector2(0.363281, 0.363281)
 texture = ExtResource("7_iy2g5")
 
-[node name="Batneutral" type="Sprite2D" parent="."]
+[node name="Batneutral2" type="Sprite2D" parent="Credits"]
 position = Vector2(340, 872)
 scale = Vector2(0.337891, 0.337891)
 texture = ExtResource("1_1wbrc")
 
-[node name="Eyeblush" type="Sprite2D" parent="."]
+[node name="Eyeblush" type="Sprite2D" parent="Credits"]
 position = Vector2(348, 1136)
-scale = Vector2(-0.508154, 0.508154)
+rotation = 3.14159
+scale = Vector2(0.508154, -0.508154)
 texture = ExtResource("8_vobvy")
 
-[node name="Handblush" type="Sprite2D" parent="."]
+[node name="Handblush" type="Sprite2D" parent="Credits"]
 position = Vector2(748, 1209)
 scale = Vector2(0.53125, 0.53125)
 texture = ExtResource("9_xdbeg")
