@@ -2,27 +2,51 @@
 [STARTCOURT]
 [eyeneutral]
 Oh hey! You're that new exchange student right?
+[eyeunhappy]
 I'm uh... Oh I guess you didn't ask, sorry...
+[eyeunhappyextreme]
 I mean um I'm... Eyeball...
 {That's a nice name!|That tracks.|Ooh! What does is it mean?}
 <A>
+[eyeblush]
 Oh you think so?
+[eyeunhappy]
 I dunno... I find it kinda... Reductive.
+[eyeneutral]
 I've been thinking about getting it changed soon.
 <B>
+[eyeunhappy]
 Really? You think so? Aww man.
+[eyeneutral]
 I mean I know I'm an eye and all but it's just...
 So... like aggressive almost... not quite...
+[eyeunhappy]
 I don't know how to describe it exactly.
 But I suppose it's just too...
+[eyeblush]
 Masculine. For my tastes.
 <C>
+[eyeblush]
 ...
 ?
+[eyeneutral]
 Um uh it's like the bit of your head that lets you see.
+[eyehappy]
 It makes up a vast majority of my body and is one of my only visible features.
 <END>
+[eyeunhappy]
 I mean I like that it physically describes me in such a clever and creative way but...
 ...
+[eyehappy]
 Anyway!
-I'm 
+I'm part of the basketball team here and we'll be practicing pretty soon.
+[eyeunhappy]
+It's the... Boys team here...
+[eyeneutral]
+And we're almost good enough to make the Biglittle Monster League this year!
+[eyehappy]
+I'd love to ball with some of the monsters in those teams!
+I hear that some of the monsters are so good they're even made of basketballs!
+[eyeblush]
+So I'll uh... See you around...
+...

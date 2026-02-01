@@ -14,4 +14,8 @@ func _on_hand_button_pressed() -> void:
 
 
 func _on_iob_button_pressed() -> void:
-	pass # Replace with function body.
+	get_tree().change_scene_to_file("res://Scenes/IOBDialogue.tscn")
+
+
+func _on_eyebutton_pressed() -> void:
+	get_tree().change_scene_to_file("res://Scenes/EyeDialogue.tscn")

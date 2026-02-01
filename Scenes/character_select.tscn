@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://vb358c1yptcr"]
+[gd_scene load_steps=11 format=3 uid="uid://vb358c1yptcr"]
 
 [ext_resource type="Script" uid="uid://dvhxb0r5n1ut4" path="res://Scenes/character_select.gd" id="1_2b87j"]
 [ext_resource type="Texture2D" uid="uid://cl0n4adqbo5nq" path="res://Images/backgrounds/Court.png" id="1_uelh3"]
@@ -9,6 +9,7 @@
 [ext_resource type="Script" uid="uid://dentk7w00wt8a" path="res://Scenes/music.gd" id="7_d1kp4"]
 [ext_resource type="Texture2D" uid="uid://b16sr27ujuejb" path="res://Images/hand/handneutral.png" id="8_d1kp4"]
 [ext_resource type="Texture2D" uid="uid://cvydfq0avgjeu" path="res://Images/iob/finalboss.png" id="9_brbi3"]
+[ext_resource type="Texture2D" uid="uid://1cum3kvcika" path="res://Images/eye/eyeneutral.png" id="10_2kyu5"]
 
 [node name="CharacterSelect" type="Node2D"]
 script = ExtResource("1_2b87j")
@@ -87,7 +88,21 @@ offset_top = -276.771
 offset_right = 312.039
 offset_bottom = 264.229
 
+[node name="Eyeneutral" type="Sprite2D" parent="."]
+position = Vector2(692, 497)
+scale = Vector2(0.464844, 0.464844)
+texture = ExtResource("10_2kyu5")
+
+[node name="Eyebutton" type="Button" parent="Eyeneutral"]
+modulate = Color(1, 1, 1, 0)
+z_index = 1
+offset_left = -262.454
+offset_top = -264.605
+offset_right = 304.546
+offset_bottom = 276.395
+
 [connection signal="pressed" from="Batneutral/BatButton" to="." method="_on_bat_button_pressed"]
 [connection signal="pressed" from="Pumpkinneutral/PumpkinButton" to="." method="_on_pumpkin_button_pressed"]
 [connection signal="pressed" from="Handneutral/HandButton" to="." method="_on_hand_button_pressed"]
 [connection signal="pressed" from="Finalboss/IOBButton" to="." method="_on_iob_button_pressed"]
+[connection signal="pressed" from="Eyeneutral/Eyebutton" to="." method="_on_eyebutton_pressed"]

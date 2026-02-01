@@ -1,0 +1,349 @@
+[gd_scene load_steps=17 format=3 uid="uid://de6ibu1oktirw"]
+
+[ext_resource type="Script" uid="uid://hhcej4wt2e34" path="res://Scenes/eye_dialogue.gd" id="1_xwl0w"]
+[ext_resource type="PackedScene" uid="uid://bvp21gvjs4kk0" path="res://Scenes/dialoguebox.tscn" id="2_scs4i"]
+[ext_resource type="PackedScene" uid="uid://bjlnmc3m1iri1" path="res://Scenes/choice_box.tscn" id="3_3vswe"]
+[ext_resource type="PackedScene" uid="uid://bndtjnqtwrm2g" path="res://Scenes/new_portrait.tscn" id="4_xmpmt"]
+[ext_resource type="AudioStream" uid="uid://1il6h6ynt6ij" path="res://Audio/Masketballtrimmed.mp3" id="5_ugevd"]
+[ext_resource type="Script" uid="uid://dentk7w00wt8a" path="res://Scenes/music.gd" id="6_uykqf"]
+[ext_resource type="AudioStream" uid="uid://bxklunyl7bdyy" path="res://Audio/pageturn.wav" id="7_120s2"]
+[ext_resource type="Texture2D" uid="uid://cl0n4adqbo5nq" path="res://Images/backgrounds/Court.png" id="8_jpx2l"]
+[ext_resource type="Texture2D" uid="uid://bl5jei6hu8lwf" path="res://Images/backgrounds/Corridor.png" id="9_aik0u"]
+[ext_resource type="Script" uid="uid://yuxf3k0bddwp" path="res://Scenes/master_animation_player.gd" id="10_6u5d6"]
+
+[sub_resource type="Animation" id="Animation_gwd6a"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Blackscreen:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1000, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Blackscreen:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0, 0, 0, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Background:texture")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("8_jpx2l")]
+}
+
+[sub_resource type="Animation" id="Animation_w3qdv"]
+resource_name = "backgroundcorridor"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Blackscreen:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.36667, 1.4),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(0, 0), Vector2(1000, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Blackscreen:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.50071, 0.797206, 1.36667),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(0, 0, 0, 1), Color(0, 0, 0, 1), Color(0, 0, 0, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Background:texture")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.564794),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("9_aik0u")]
+}
+tracks/3/type = "method"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath(".")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 1.4),
+"transitions": PackedFloat32Array(1, 1),
+"values": [{
+"args": [true],
+"method": &"setInChoice"
+}, {
+"args": [false],
+"method": &"setInChoice"
+}]
+}
+
+[sub_resource type="Animation" id="Animation_0hby2"]
+resource_name = "backgroundcourt"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Blackscreen:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.36667, 1.4),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(0, 0), Vector2(1000, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Blackscreen:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.50071, 0.797206, 1.36667),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(0, 0, 0, 1), Color(0, 0, 0, 1), Color(0, 0, 0, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Background:texture")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.564794),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("8_jpx2l")]
+}
+tracks/3/type = "method"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath(".")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 1.4),
+"transitions": PackedFloat32Array(1, 1),
+"values": [{
+"args": [true],
+"method": &"setInChoice"
+}, {
+"args": [false],
+"method": &"setInChoice"
+}]
+}
+
+[sub_resource type="Animation" id="Animation_7dcj7"]
+resource_name = "startcorridor"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Blackscreen:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.36667, 1.4),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(0, 0), Vector2(1000, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Blackscreen:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.50071, 0.797206, 1.36667),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(0, 0, 0, 1), Color(0, 0, 0, 1), Color(0, 0, 0, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Background:texture")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.564794),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("9_aik0u")]
+}
+tracks/3/type = "method"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath(".")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 1.4),
+"transitions": PackedFloat32Array(1, 1),
+"values": [{
+"args": [true],
+"method": &"setInChoice"
+}, {
+"args": [false],
+"method": &"setInChoice"
+}]
+}
+
+[sub_resource type="Animation" id="Animation_w3mqp"]
+resource_name = "startcourt"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Blackscreen:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.36667, 1.4),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(0, 0), Vector2(1000, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Blackscreen:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.50071, 0.797206, 1.36667),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(0, 0, 0, 1), Color(0, 0, 0, 1), Color(0, 0, 0, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Background:texture")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.564794),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("8_jpx2l")]
+}
+tracks/3/type = "method"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath(".")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 1.4),
+"transitions": PackedFloat32Array(1, 1),
+"values": [{
+"args": [true],
+"method": &"setInChoice"
+}, {
+"args": [false],
+"method": &"setInChoice"
+}]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_w3qdv"]
+_data = {
+&"RESET": SubResource("Animation_gwd6a"),
+&"backgroundcorridor": SubResource("Animation_w3qdv"),
+&"backgroundcourt": SubResource("Animation_0hby2"),
+&"startcorridor": SubResource("Animation_7dcj7"),
+&"startcourt": SubResource("Animation_w3mqp")
+}
+
+[node name="Control2" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_xwl0w")
+
+[node name="DialogueBox" parent="." instance=ExtResource("2_scs4i")]
+layout_mode = 1
+offset_left = 28.0
+offset_top = 430.0
+offset_right = -32.0
+offset_bottom = -27.0
+
+[node name="ChoiceBox" parent="." instance=ExtResource("3_3vswe")]
+visible = false
+layout_mode = 0
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+grow_horizontal = 1
+grow_vertical = 1
+
+[node name="NewPortrait" parent="." instance=ExtResource("4_xmpmt")]
+z_index = -10
+
+[node name="Music" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("5_ugevd")
+autoplay = true
+script = ExtResource("6_uykqf")
+
+[node name="pageturn" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("7_120s2")
+volume_db = -17.542
+pitch_scale = 0.52
+
+[node name="Blackscreen" type="Sprite2D" parent="."]
+modulate = Color(0, 0, 0, 0)
+z_index = 99
+position = Vector2(1000, 0)
+texture = ExtResource("8_jpx2l")
+
+[node name="Background" type="Sprite2D" parent="."]
+z_index = -99
+position = Vector2(562, 209)
+scale = Vector2(0.292643, 0.292643)
+texture = ExtResource("8_jpx2l")
+
+[node name="MasterAnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_w3qdv")
+}
+script = ExtResource("10_6u5d6")
+
+[connection signal="corridor" from="." to="MasterAnimationPlayer" method="_on_control_corridor"]
+[connection signal="court" from="." to="MasterAnimationPlayer" method="_on_control_court"]
+[connection signal="choice_made" from="ChoiceBox" to="." method="_on_choice_box_choice_made"]
+[connection signal="finished" from="Music" to="Music" method="_on_finished"]

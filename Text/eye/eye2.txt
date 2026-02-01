@@ -1,3 +1,30 @@
 [eyeneutral]
 [CORRIDOR]
 [eyeneutral]
+Oh hey Blonger!
+[eyeblush]
+Listen um...
+Can you keep a secret?
+{Yes.|No.|On a good day.}
+<A>
+[eyeneutral]
+I uh...
+[eyeblush]
+I've thought about it and I think I'd rather be a girl...
+And I think I'd like to be called...
+[eyehappy]
+Eye...From now on.
+[eyeunhappy]
+But we only have a boys team here and I really do want to play in the qualifiers for the Biglittle League at least...
+And I just don't know that I can keep this up.
+[eyeunhappyextreme]
+Sometimes... It's like viewing the world through a Twisted Mirror.
+<B>
+[eyeunhappy]
+Oh... Okay...
+[eyeunhappy]
+See you around then.
+<C>
+
+<END>
+...
