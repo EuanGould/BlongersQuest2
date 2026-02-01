@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bgi7t1l6cfjc8"
+path="res://.godot/imported/Masketball credits.mp3-88e699cea6f824e19dc8af656aa8fdb1.mp3str"
+
+[deps]
+
+source_file="res://Audio/Masketball credits.mp3"
+dest_files=["res://.godot/imported/Masketball credits.mp3-88e699cea6f824e19dc8af656aa8fdb1.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
