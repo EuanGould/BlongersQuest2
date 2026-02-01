@@ -4,7 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://bvp21gvjs4kk0" path="res://Scenes/dialoguebox.tscn" id="2_aml6n"]
 [ext_resource type="PackedScene" uid="uid://bjlnmc3m1iri1" path="res://Scenes/choice_box.tscn" id="3_8464p"]
 [ext_resource type="PackedScene" uid="uid://bndtjnqtwrm2g" path="res://Scenes/new_portrait.tscn" id="4_fwopy"]
-[ext_resource type="AudioStream" uid="uid://1il6h6ynt6ij" path="res://Audio/Masketballtrimmed.mp3" id="5_gh6g3"]
+[ext_resource type="AudioStream" uid="uid://b4ivtnus6ord5" path="res://Audio/radio-static-323621.mp3" id="5_udxfm"]
 [ext_resource type="Script" uid="uid://dentk7w00wt8a" path="res://Scenes/music.gd" id="6_n4hsl"]
 [ext_resource type="AudioStream" uid="uid://bxklunyl7bdyy" path="res://Audio/pageturn.wav" id="7_tnekl"]
 [ext_resource type="Texture2D" uid="uid://cl0n4adqbo5nq" path="res://Images/backgrounds/Court.png" id="8_cql2t"]
@@ -316,8 +316,7 @@ grow_vertical = 1
 z_index = -10
 
 [node name="Music" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("5_gh6g3")
-volume_db = -80.0
+stream = ExtResource("5_udxfm")
 autoplay = true
 script = ExtResource("6_n4hsl")
 

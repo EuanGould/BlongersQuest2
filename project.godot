@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Blongers Quest II"
-run/main_scene="uid://cff8ff0bmvpj2"
+run/main_scene="uid://vb358c1yptcr"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
 

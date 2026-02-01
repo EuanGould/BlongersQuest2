@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://vb358c1yptcr"]
+[gd_scene load_steps=12 format=3 uid="uid://vb358c1yptcr"]
 
 [ext_resource type="Script" uid="uid://dvhxb0r5n1ut4" path="res://Scenes/character_select.gd" id="1_2b87j"]
 [ext_resource type="Texture2D" uid="uid://cl0n4adqbo5nq" path="res://Images/backgrounds/Court.png" id="1_uelh3"]
@@ -10,6 +10,7 @@
 [ext_resource type="Texture2D" uid="uid://b16sr27ujuejb" path="res://Images/hand/handneutral.png" id="8_d1kp4"]
 [ext_resource type="Texture2D" uid="uid://cvydfq0avgjeu" path="res://Images/iob/finalboss.png" id="9_brbi3"]
 [ext_resource type="Texture2D" uid="uid://1cum3kvcika" path="res://Images/eye/eyeneutral.png" id="10_2kyu5"]
+[ext_resource type="AudioStream" uid="uid://c25dxm3pbgej" path="res://Audio/Masketball.mp3" id="11_li0db"]
 
 [node name="CharacterSelect" type="Node2D"]
 script = ExtResource("1_2b87j")
@@ -100,6 +101,10 @@ offset_left = -262.454
 offset_top = -264.605
 offset_right = 304.546
 offset_bottom = 276.395
+
+[node name="AudioStreamPlayer2D2" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("11_li0db")
+autoplay = true
 
 [connection signal="pressed" from="Batneutral/BatButton" to="." method="_on_bat_button_pressed"]
 [connection signal="pressed" from="Pumpkinneutral/PumpkinButton" to="." method="_on_pumpkin_button_pressed"]

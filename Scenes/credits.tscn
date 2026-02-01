@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3 uid="uid://4egcns7w5gql"]
+[gd_scene load_steps=17 format=3 uid="uid://4egcns7w5gql"]
 
 [ext_resource type="Texture2D" uid="uid://bnffccqd72hna" path="res://Images/bat/batneutral.png" id="1_1wbrc"]
 [ext_resource type="Script" uid="uid://yv8djtts43i6" path="res://Scenes/credits.gd" id="1_fdv4u"]
@@ -12,6 +12,22 @@
 [ext_resource type="Texture2D" uid="uid://bgrr2kvl28i8x" path="res://Images/hand/handblush.png" id="9_xdbeg"]
 [ext_resource type="Texture2D" uid="uid://ly1x540iaakf" path="res://Images/spike/spike.png" id="10_j6nef"]
 [ext_resource type="Texture2D" uid="uid://crlqo0dh2jfja" path="res://Images/pumpkin/pumpkinblush.png" id="12_ae0tj"]
+[ext_resource type="AudioStream" uid="uid://bgi7t1l6cfjc8" path="res://Audio/Masketball credits.mp3" id="13_rlyo5"]
+
+[sub_resource type="Animation" id="Animation_fdv4u"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 0)]
+}
 
 [sub_resource type="Animation" id="Animation_j6nef"]
 resource_name = "scroll"
@@ -27,21 +43,6 @@ tracks/0/keys = {
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
 "values": [Vector2(0, 0), Vector2(0, -1420)]
-}
-
-[sub_resource type="Animation" id="Animation_fdv4u"]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:position")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector2(0, 0)]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_fdv4u"]
@@ -204,3 +205,7 @@ libraries = {
 position = Vector2(770, 1068)
 scale = Vector2(0.318359, 0.352469)
 texture = ExtResource("12_ae0tj")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("13_rlyo5")
+autoplay = true

@@ -1,3 +1,51 @@
+[eyeunhappy]
+[CORRIDOR]
+[eyeunhappy]
+...
+[eyehappy]
+Oh hey Blonger!
 [eyeneutral]
-[COURT]
+I have some uhh...
+[eyeblush]
+Big news...
+I finally... Um...
+[eyehappyextreme]
+I changed my name!
+[eyeunhappy]
+At least in a personal capacity.
+[eyehappy]
+So henceforth I am...
+[eyeblush]
+Eye.
+[eyehappy]
+And I've decided that I'm going to live the rest of my life as a girl now.
 [eyeneutral]
+But uh...
+{Something wrong?|Eye suits you!|Congrats!}
+<A>
+Um yeah I mean...
+<B>
+[eyeblush]
+Oh well... Thanks!
+I liked that the old one physically described my anatomy in such a clever and thoughtful way.
+So I wanted something that still stuck to that.
+[eyehappy]
+Plus, I can change it again whenever really.
+But uh... Well...
+<C>
+[eyehappy]
+Thanks!
+[eyehappyvery]
+I got a long way to go but I think this is definitely right for me!
+[eyeneutral]
+But uh... Well...
+<END>
+[eyeunhappy]
+I can't really play basketball for the school anymore since the girl's team is full.
+So I'm gonna miss the qualifier.
+[eyeunhappyextreme]
+I was really looking forward to it too...
+[eyeneutral]
+But I'll manage...
+Seeya Blonger...
+...

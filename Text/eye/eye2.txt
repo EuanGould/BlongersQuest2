@@ -13,18 +13,43 @@ I uh...
 I've thought about it and I think I'd rather be a girl...
 And I think I'd like to be called...
 [eyehappy]
-Eye...From now on.
+I'll come up with something later.
 [eyeunhappy]
-But we only have a boys team here and I really do want to play in the qualifiers for the Biglittle League at least...
+But I don't wanna leave the boy's team here and I really do want to play in the qualifiers for the Biglittle League.
 And I just don't know that I can keep this up.
 [eyeunhappyextreme]
 Sometimes... It's like viewing the world through a Twisted Mirror.
+[eyeneutral]
+I think that...
+[eyeunhappy]
+I'll just have to keep it up for now.
+[eyehappy]
+Thanks for hearing me out, you're a good listener!
+Seeya round.
 <B>
 [eyeunhappy]
 Oh... Okay...
 [eyeunhappy]
 See you around then.
 <C>
-
+[eyeneutral]
+I uh...
+[eyeblush]
+I've thought about it and I think I'd rather be a girl...
+And I think I'd like to be called...
+[eyehappy]
+I'll come up with something later.
+[eyeunhappy]
+But we only have a boys team here and I really do want to play in the qualifiers for the Biglittle League at least...
+And I just don't know that I can keep this up.
+[eyeunhappyextreme]
+Sometimes... It's like viewing the world through a Twisted Mirror.
+[eyeneutral]
+I think that...
+[eyeunhappy]
+I'll just have to keep it up for now.
+[eyehappy]
+Thanks for hearing me out, you're a good listener!
+Seeya round.
 <END>
 ...

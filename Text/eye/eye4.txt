@@ -1,3 +1,18 @@
 [eyeneutral]
-[CORRIDOR]
+[COURT]
+[eyehappy]
+Oh hey Blonger!
 [eyeneutral]
+I missed the qualifier but...
+[eyehappyvery]
+A bunch of people from both teams have arranged to play basketball with me after hours!
+[eyeblush]
+They really didn't have to but it's very kind of them all...
+[eyehappyvery]
+It's no league and it might be a long time before I'm playing for a school team again but...
+[eyeblush]
+It's pretty special I think.
+[eyeneutral]
+Thanks Blonger...
+I could've done it irrespective of your prescence but I appreciate your company nonetheless.
+...
