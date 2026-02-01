@@ -32,6 +32,6 @@ When I become president due to my basketball skills, I will outlaw that stupid s
 [handunhappy]
 You really love wasting my time, huh?
 Go away, now.
-[handneutral]
+[handneutralleave]
 I hope I never see you again.
 End of Chapter

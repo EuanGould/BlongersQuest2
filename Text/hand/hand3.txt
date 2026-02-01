@@ -52,5 +52,6 @@ Basketball.
 <END>
 [handneutral]
 I must leave now.
+[handneutralleave]
 Basketball waits for no one.
 End of Chapter
