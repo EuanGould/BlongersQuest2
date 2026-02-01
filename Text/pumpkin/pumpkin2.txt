@@ -1,4 +1,6 @@
 [pumpkinneutral]
+[CORRIDOR]
+[pumpkinneutral]
 Hi again!
 How are you doing? 
 Anyone picking on you?
@@ -66,7 +68,6 @@ and one time a woodchipper...
 But usually just like a bucket or basket or something.
 [pumpkinblush]
 And I guess I didn't mind that all too much.
-[backgroundcorridor]
 [pumpkinhappy]
 And anyway, the Incomprehensible Orb Being vaporised them so they're not around anymore.
 <C>
@@ -78,7 +79,7 @@ And sometimes into containers.
 [pumpkinblush]
 ...
 [pumpkinneutral]
-One time they tried to throw me into a woodchipper though and was rude.
+One time they tried to throw me into a woodchipper though and that was rude.
 [pumpkinhappy]
 They didn't even get expelled for that, turns out they were doing Chaos Powder in the bathrooms.
 Then the Incomprehensible Orb Being vaporised them so they're not around anymore.
@@ -94,4 +95,4 @@ The qualifier for the Biglittle Monster League is tomorrow, and the tickets are 
 Mainly because no one really cares until you're in the league but...
 [pumpkinhappy]
 If you wanna come along it'll be pretty easy to get a seat!!
-End of program
+...
