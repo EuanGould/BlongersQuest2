@@ -1,4 +1,14 @@
-[gd_scene format=3 uid="uid://4egcns7w5gql"]
+[gd_scene load_steps=10 format=3 uid="uid://4egcns7w5gql"]
+
+[ext_resource type="Texture2D" uid="uid://bnffccqd72hna" path="res://Images/bat/batneutral.png" id="1_1wbrc"]
+[ext_resource type="Texture2D" uid="uid://c81xwyh4yesx2" path="res://Images/bat/batsunglasses.png" id="2_j6nef"]
+[ext_resource type="Texture2D" uid="uid://6ib4v81cgcw5" path="res://Images/pumpkin/pumpkinhappy.png" id="3_fdv4u"]
+[ext_resource type="Texture2D" uid="uid://cvydfq0avgjeu" path="res://Images/iob/finalboss.png" id="4_ae0tj"]
+[ext_resource type="Texture2D" uid="uid://cedv6lncqde5b" path="res://Images/hand/handhappy.png" id="5_rlyo5"]
+[ext_resource type="Texture2D" uid="uid://1cum3kvcika" path="res://Images/eye/eyeneutral.png" id="6_0oi4c"]
+[ext_resource type="Texture2D" uid="uid://b4kupqk184u8b" path="res://Images/blonger/blonger.png" id="7_iy2g5"]
+[ext_resource type="Texture2D" uid="uid://vk87ki3r6ap4" path="res://Images/eye/eyeblush.png" id="8_vobvy"]
+[ext_resource type="Texture2D" uid="uid://bgrr2kvl28i8x" path="res://Images/hand/handblush.png" id="9_xdbeg"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -17,26 +27,111 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0, 0, 0, 1)
 
-[node name="RichTextLabel" type="RichTextLabel" parent="."]
-z_index = 1
+[node name="Credits" type="Control" parent="."]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Credits"]
+z_index = 1
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 1.0
+offset_top = 652.0
+offset_right = 1.0
+offset_bottom = 1328.0
+grow_horizontal = 2
+grow_vertical = 2
 bbcode_enabled = true
 text = "[center]Blonger's Quest II: Masketball
 
-Cast:
+ - Cast - 
 
-Pumpkin
+Bat
+Blonger
 Eye
 Hand
-Bat
 Incomprehensible Orb Being
+Pumpkin
+
+- Motion capture - 
+
+Pumpkin
+
+ - Voice Acting - 
+
+You
+(That was on you)
+
+ - Programming - 
+
+Eye
+
+ - Music - 
+
 Blonger
+Hand
+Bat
 
-Motion capture:
+ - Special Thanks  - 
 
+Spiky Sinfulcinatti Sawed Off Player
 "
+
+[node name="Batneutral" type="Sprite2D" parent="Credits"]
+position = Vector2(983, 1161)
+scale = Vector2(0.347656, 0.347656)
+texture = ExtResource("1_1wbrc")
+
+[node name="Batsunglasses" type="Sprite2D" parent="Credits/Batneutral"]
+texture = ExtResource("2_j6nef")
+
+[node name="Pumpkinhappy" type="Sprite2D" parent="."]
+position = Vector2(768, 780)
+scale = Vector2(0.324219, 0.324219)
+texture = ExtResource("3_fdv4u")
+
+[node name="Finalboss" type="Sprite2D" parent="."]
+position = Vector2(912, 715)
+scale = Vector2(0.341797, 0.341797)
+texture = ExtResource("4_ae0tj")
+
+[node name="Handhappy" type="Sprite2D" parent="."]
+position = Vector2(332, 733)
+scale = Vector2(0.387695, 0.387695)
+texture = ExtResource("5_rlyo5")
+
+[node name="Eyeneutral" type="Sprite2D" parent="."]
+position = Vector2(916.5, 895.5)
+scale = Vector2(0.408203, 0.408203)
+texture = ExtResource("6_0oi4c")
+
+[node name="Blonger2" type="Sprite2D" parent="."]
+position = Vector2(928, 1325)
+scale = Vector2(-0.345, 0.345)
+texture = ExtResource("7_iy2g5")
+
+[node name="Blonger" type="Sprite2D" parent="."]
+position = Vector2(120, 794)
+scale = Vector2(0.363281, 0.363281)
+texture = ExtResource("7_iy2g5")
+
+[node name="Batneutral" type="Sprite2D" parent="."]
+position = Vector2(340, 872)
+scale = Vector2(0.337891, 0.337891)
+texture = ExtResource("1_1wbrc")
+
+[node name="Eyeblush" type="Sprite2D" parent="."]
+position = Vector2(348, 1136)
+scale = Vector2(-0.508154, 0.508154)
+texture = ExtResource("8_vobvy")
+
+[node name="Handblush" type="Sprite2D" parent="."]
+position = Vector2(748, 1209)
+scale = Vector2(0.53125, 0.53125)
+texture = ExtResource("9_xdbeg")

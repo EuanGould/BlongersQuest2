@@ -11,63 +11,6 @@
 [ext_resource type="Texture2D" uid="uid://bl5jei6hu8lwf" path="res://Images/backgrounds/Corridor.png" id="9_0hby2"]
 [ext_resource type="Script" uid="uid://yuxf3k0bddwp" path="res://Scenes/master_animation_player.gd" id="10_gwd6a"]
 
-[sub_resource type="Animation" id="Animation_0hby2"]
-resource_name = "backgroundcourt"
-length = 2.0
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Blackscreen:position")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 1.36667, 1.4),
-"transitions": PackedFloat32Array(1, 1, 1),
-"update": 0,
-"values": [Vector2(0, 0), Vector2(0, 0), Vector2(1000, 0)]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath("Blackscreen:modulate")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0, 0.50071, 0.797206, 1.36667),
-"transitions": PackedFloat32Array(1, 1, 1, 1),
-"update": 0,
-"values": [Color(0, 0, 0, 1), Color(0, 0, 0, 1), Color(0, 0, 0, 1), Color(0, 0, 0, 0)]
-}
-tracks/2/type = "value"
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/path = NodePath("Background:texture")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/keys = {
-"times": PackedFloat32Array(0.564794),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [ExtResource("8_6v1lj")]
-}
-tracks/3/type = "method"
-tracks/3/imported = false
-tracks/3/enabled = true
-tracks/3/path = NodePath(".")
-tracks/3/interp = 1
-tracks/3/loop_wrap = true
-tracks/3/keys = {
-"times": PackedFloat32Array(0, 1.4),
-"transitions": PackedFloat32Array(1, 1),
-"values": [{
-"args": [true],
-"method": &"setInChoice"
-}, {
-"args": [false],
-"method": &"setInChoice"
-}]
-}
-
 [sub_resource type="Animation" id="Animation_gwd6a"]
 length = 0.001
 tracks/0/type = "value"
@@ -164,8 +107,8 @@ tracks/3/keys = {
 }]
 }
 
-[sub_resource type="Animation" id="Animation_w3mqp"]
-resource_name = "startcourt"
+[sub_resource type="Animation" id="Animation_0hby2"]
+resource_name = "backgroundcourt"
 length = 2.0
 tracks/0/type = "value"
 tracks/0/imported = false
@@ -278,6 +221,63 @@ tracks/3/keys = {
 }]
 }
 
+[sub_resource type="Animation" id="Animation_w3mqp"]
+resource_name = "startcourt"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Blackscreen:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.36667, 1.4),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(0, 0), Vector2(1000, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Blackscreen:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.50071, 0.797206, 1.36667),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(0, 0, 0, 1), Color(0, 0, 0, 1), Color(0, 0, 0, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Background:texture")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.564794),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("8_6v1lj")]
+}
+tracks/3/type = "method"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath(".")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 1.4),
+"transitions": PackedFloat32Array(1, 1),
+"values": [{
+"args": [true],
+"method": &"setInChoice"
+}, {
+"args": [false],
+"method": &"setInChoice"
+}]
+}
+
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_w3qdv"]
 _data = {
 &"RESET": SubResource("Animation_gwd6a"),
@@ -287,7 +287,7 @@ _data = {
 &"startcourt": SubResource("Animation_w3mqp")
 }
 
-[node name="Control" type="Control"]
+[node name="Control2" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
