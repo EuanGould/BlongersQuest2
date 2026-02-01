@@ -1,0 +1,17 @@
+Good morning. Are you the new transfer student?
+Nice to meet you.
+I'm Hand.
+I'm a professional Rock Paper Scissors player.
+{I challenge you!|I prefer basketball.|That's boring.}
+<A>
+I'd be happy to try.
+I just don't think you'd stand a chance.
+You don't even have hands.
+<B>
+...
+I thought about basketball, but...
+I just don't have time for it.
+I need to train for Rock Paper Scissors.
+<C>
+It's fine once you get used to it.
+I'm quite popular among fans, so there's always people cheering for me.

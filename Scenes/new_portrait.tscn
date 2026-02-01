@@ -1,4 +1,4 @@
-[gd_scene load_steps=39 format=3 uid="uid://bndtjnqtwrm2g"]
+[gd_scene load_steps=35 format=3 uid="uid://bndtjnqtwrm2g"]
 
 [ext_resource type="Texture2D" uid="uid://dl8s7gei842ni" path="res://Images/pumpkin/pumpkinneutral.png" id="1_skkwd"]
 [ext_resource type="Script" uid="uid://cbpy8sbplpo1d" path="res://Scenes/new_portrait.gd" id="2_58hvf"]
@@ -11,8 +11,6 @@
 [ext_resource type="Texture2D" uid="uid://c81xwyh4yesx2" path="res://Images/bat/batsunglasses.png" id="8_5ciup"]
 [ext_resource type="Texture2D" uid="uid://bb0h0multjevg" path="res://Images/bat/batshirt.png" id="9_5ciup"]
 [ext_resource type="Texture2D" uid="uid://cjatm4vw2p67n" path="res://Images/bat/battoasters.png" id="11_66wsj"]
-[ext_resource type="Texture2D" uid="uid://cl0n4adqbo5nq" path="res://Images/backgrounds/Court.png" id="12_ys7f1"]
-[ext_resource type="Texture2D" uid="uid://bl5jei6hu8lwf" path="res://Images/backgrounds/Corridor.png" id="13_s6khc"]
 
 [sub_resource type="Animation" id="Animation_7w1yf"]
 length = 0.001
@@ -99,30 +97,6 @@ tracks/6/keys = {
 "transitions": PackedFloat32Array(1),
 "update": 0,
 "values": [0.0]
-}
-tracks/7/type = "value"
-tracks/7/imported = false
-tracks/7/enabled = true
-tracks/7/path = NodePath("background:texture")
-tracks/7/interp = 1
-tracks/7/loop_wrap = true
-tracks/7/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [ExtResource("12_ys7f1")]
-}
-tracks/8/type = "value"
-tracks/8/imported = false
-tracks/8/enabled = true
-tracks/8/path = NodePath("BlackScreen:color")
-tracks/8/interp = 1
-tracks/8/loop_wrap = true
-tracks/8/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Color(0, 0, 0, 0)]
 }
 
 [sub_resource type="Animation" id="Animation_o1wwh"]
@@ -1340,67 +1314,9 @@ tracks/2/keys = {
 "values": [Vector2(0.5, 0.5), Vector2(0.1, 0.1)]
 }
 
-[sub_resource type="Animation" id="Animation_lv4j0"]
-resource_name = "backgroundcorridor"
-length = 2.0
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("background:texture")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0.866667),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [ExtResource("13_s6khc")]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath("BlackScreen:color")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0, 0.5, 1.20781, 1.96667),
-"transitions": PackedFloat32Array(1, 1, 1, 1),
-"update": 0,
-"values": [Color(0, 0, 0, 0), Color(0, 0, 0, 1), Color(0, 0, 0, 1), Color(0, 0, 0, 0)]
-}
-
-[sub_resource type="Animation" id="Animation_7ar26"]
-resource_name = "backgroundcourt"
-length = 2.0
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("background:texture")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0.866667),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [ExtResource("12_ys7f1")]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath("BlackScreen:color")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0, 0.5, 1.20781, 1.96667),
-"transitions": PackedFloat32Array(1, 1, 1, 1),
-"update": 0,
-"values": [Color(0, 0, 0, 0), Color(0, 0, 0, 1), Color(0, 0, 0, 1), Color(0, 0, 0, 0)]
-}
-
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_fnvqe"]
 _data = {
 &"RESET": SubResource("Animation_7w1yf"),
-&"backgroundcorridor": SubResource("Animation_lv4j0"),
-&"backgroundcourt": SubResource("Animation_7ar26"),
 &"batglassesfall": SubResource("Animation_o1wwh"),
 &"batglassesgain": SubResource("Animation_fn1qs"),
 &"batsunglassesfall": SubResource("Animation_5vgw1"),
@@ -1436,22 +1352,3 @@ libraries = {
 [node name="Sprite2D" type="Sprite2D" parent="."]
 visible = false
 texture = ExtResource("3_7773s")
-
-[node name="BlackScreen" type="ColorRect" parent="."]
-z_index = 12
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = -256.0
-offset_top = -256.0
-offset_right = 863.0
-offset_bottom = 319.0
-grow_horizontal = 2
-grow_vertical = 2
-color = Color(0, 0, 0, 0)
-
-[node name="background" type="Sprite2D" parent="."]
-z_index = -199
-position = Vector2(576.5, 326)
-scale = Vector2(0.289951, 0.222005)
-texture = ExtResource("12_ys7f1")
