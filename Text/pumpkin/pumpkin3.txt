@@ -1,4 +1,5 @@
-[backgroundcourt]
+[pumpkinneutral]
+[COURT]
 [pumpkinneutral]
 Aw man! I'm kinda nervous!
 [pumpkinhappy]
@@ -27,7 +28,7 @@ Yeah... I kinda...
 Thanks! But... Man... That's kind of you but...
 I honestly...
 <END>
-[pumpkingunhappy]
+[pumpkinunhappy]
 Don't like basketball.
 Being completely honest. I kinda only like watching the ball.
 [pumpkinshrinkingunhappy]
@@ -46,4 +47,4 @@ I don't really care about playing it.
 But I'll try my best so that I can least be around the ball in the Biglittle League!!
 [pumpkinunhappy]
 Seeya tomorrow...
-End of program
+...

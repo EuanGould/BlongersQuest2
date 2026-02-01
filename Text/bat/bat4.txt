@@ -1,4 +1,6 @@
 [batwithshirt]
+[CORRIDOR]
+[batwithshirt]
 Hi, Blonger!
 I quit the basketball team!
 Finally no more daily practice.
