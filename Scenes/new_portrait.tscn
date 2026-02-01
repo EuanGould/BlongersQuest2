@@ -1,4 +1,4 @@
-[gd_scene load_steps=52 format=3 uid="uid://bndtjnqtwrm2g"]
+[gd_scene load_steps=55 format=3 uid="uid://bndtjnqtwrm2g"]
 
 [ext_resource type="Texture2D" uid="uid://dl8s7gei842ni" path="res://Images/pumpkin/pumpkinneutral.png" id="1_skkwd"]
 [ext_resource type="Script" uid="uid://cbpy8sbplpo1d" path="res://Scenes/new_portrait.gd" id="2_58hvf"]
@@ -18,6 +18,7 @@
 [ext_resource type="Texture2D" uid="uid://cedv6lncqde5b" path="res://Images/hand/handhappy.png" id="16_5vgw1"]
 [ext_resource type="Texture2D" uid="uid://cjtwdf1xd01nn" path="res://Images/hand/handunhappy.png" id="17_edtmr"]
 [ext_resource type="Texture2D" uid="uid://uiq6icdvtbb0" path="res://Images/hand/handangry.png" id="18_7ar26"]
+[ext_resource type="Texture2D" uid="uid://cvydfq0avgjeu" path="res://Images/iob/finalboss.png" id="19_o4s64"]
 
 [sub_resource type="Animation" id="Animation_7w1yf"]
 length = 0.001
@@ -1863,6 +1864,109 @@ tracks/3/keys = {
 "values": [false]
 }
 
+[sub_resource type="Animation" id="Animation_3gle3"]
+resource_name = "iobhostile"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(541, 257)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("19_o4s64")]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".:scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Sprite2D:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_vkuba"]
+resource_name = "iobjumpscare"
+length = 1.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(541, 257), Vector2(1397, -1676)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("19_o4s64")]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".:scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 1.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(1, 1), Vector2(80, 80)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Sprite2D:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_fnvqe"]
 _data = {
 &"RESET": SubResource("Animation_7w1yf"),
@@ -1885,6 +1989,8 @@ _data = {
 &"handunhappy": SubResource("Animation_y3jet"),
 &"handunhappyvery": SubResource("Animation_13xfe"),
 &"handwave": SubResource("Animation_7ar26"),
+&"iobhostile": SubResource("Animation_3gle3"),
+&"iobjumpscare": SubResource("Animation_vkuba"),
 &"pumpkinangry": SubResource("Animation_wy1uf"),
 &"pumpkinblush": SubResource("Animation_ys7f1"),
 &"pumpkinfasthappy": SubResource("Animation_0him6"),
